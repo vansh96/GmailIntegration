@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "775880686794",
+    "project_id": "integrated-oath-185411"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775880686794:android:f2c507ac74206fd3",
+        "android_client_info": {
+          "package_name": "com.example.vaksys_android.gmailintegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775880686794-rb0tqakd53mo990vo4sv6maq5g0h5514.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaksys_android.gmailintegration",
+            "certificate_hash": "df518f815dbec83caa2d7fde51b47bfa3a92d3ca"
+          }
+        },
+        {
+          "client_id": "775880686794-1mr415t2m4b2uoodtv9plvb6jqaf076v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAai5ttpWJ2m4AJW9cKzRT6hJTJntvGGhs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

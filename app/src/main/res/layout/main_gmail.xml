@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:id="@+id/profile_section">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/profile_section1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/image_view"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text1"
+                android:text="vanditshah96@gmail.com"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text2"
+                android:text="Welcome vandit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_logout"
+                android:text="Logout GMAIL ACCOUNT"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sign_in"
+        android:layout_marginTop="50dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+
+
+</LinearLayout>
